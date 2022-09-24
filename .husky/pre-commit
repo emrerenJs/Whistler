@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+cd whistler.ui
+npm run lint-front
+cd ..
+cd whistler.nest
+npm run lint-nest

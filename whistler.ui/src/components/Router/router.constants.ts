@@ -1,8 +1,8 @@
-import Dashboard from "@pages/Dashboard/Dashboard";
-import Security from '@pages/Security/Security'
+import Dashboard from '@pages/Dashboard/Dashboard';
+import Security from '@pages/Security/Security';
 import { lazy } from 'react';
 
-  export   const  HOME =   'Anasayfa';
+export const HOME = 'Anasayfa';
 export const DASHBOARD = 'Panel';
 export const SECURITY = 'Güvenlik';
 

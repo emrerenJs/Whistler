@@ -1,6 +1,6 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
-import PrivateRoute from '@components/Router/PrivateRoute/PrivateRoute';
-import PublicRoute from '@components/Router/PublicRoute/PublicRoute';
+import PrivateRoute from '@components/Router/components/PrivateRoute/PrivateRoute';
+import PublicRoute from '@components/Router/components/PublicRoute/PublicRoute';
 import { appRoutes, ClientRoutes } from '@components/Router/router.constants';
 
 export default function Router() {
